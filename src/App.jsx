@@ -527,7 +527,7 @@ export default function App() {
         <section className="rounded-[2rem] border border-white/10 bg-slate-950 p-5 text-white shadow-[0_35px_100px_-55px_rgba(15,23,42,0.9)]">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <h2 className="text-2xl font-black uppercase tracking-tight text-[#E23120] sm:text-3xl">Nhận báo giá xây nhà trọn gói ngay</h2>
-            <button type="button" onClick={saveLeadPreview} className="inline-flex items-center justify-center gap-2 rounded-2xl bg-[#C51605] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#C51605]/25 transition hover:bg-[#A91204]">
+            <button type="button" onClick={saveQuoteAndPrint} className="inline-flex items-center justify-center gap-2 rounded-2xl bg-[#C51605] px-6 py-3 text-sm font-black text-white shadow-lg shadow-[#C51605]/25 transition hover:bg-[#A91204]">
               <Download className="h-4 w-4" /> Lưu bảng báo giá để xem sau
             </button>
           </div>
